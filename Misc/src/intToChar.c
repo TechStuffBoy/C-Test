@@ -11,6 +11,7 @@
 
 int main(void)
 {
+	//
 	int i;
 	i = 34567;
 	char s[11];
