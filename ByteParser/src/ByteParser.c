@@ -82,6 +82,8 @@ void init_8()
 		button8[i].prevCount = button8[i].curCount;
 	}
 	printf("Structure button8 is initialized..\n");
+
+
 }
 
 void init_16()
