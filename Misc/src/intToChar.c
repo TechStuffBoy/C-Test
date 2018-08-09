@@ -4,7 +4,7 @@
  *  Created on: 31-Jul-2018
  *      Author: CPSG-WB-4
  */
-
+/*
 
 #include <stdio.h>
 #include<string.h>
@@ -22,5 +22,8 @@ int main(void)
 	char buffer[20];
 	snprintf(buffer, sizeof(buffer), "0x%X", i);
 	printf("String = %s\n",buffer);
+	printf("Hello");
+
 	return 0;
 }
+*/
