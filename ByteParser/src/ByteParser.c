@@ -18,8 +18,8 @@ typedef struct  {
 	uint16_t prevCount;
 } buttonParser_16;
 
-void init_8();
-void init_16();
+void init_8(void);
+void init_16(void);
 void checkButton_8(uint8_t buttonVal);
 void checkButton_16(uint16_t buttonVal);
 
@@ -75,7 +75,7 @@ int main(void)
 }
 
 
-void init_8()
+void init_8(void)
 {
 	int i;
 	for(i=0; i< sizeof(button8)/sizeof(buttonParser_8); i++) {
@@ -86,7 +86,7 @@ void init_8()
 
 }
 
-void init_16()
+void init_16(void)
 {
 	int i;
 	for(i=0; i< sizeof(button16)/sizeof(buttonParser_16); i++) {
